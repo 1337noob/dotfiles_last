@@ -1,0 +1,150 @@
+*.foreground:   #c5c8c6
+*.background:   #292b2e
+*.cursorColor:  #875faf
+
+! black
+!*.color0:       rgba:2900/2b00/2e00/dede
+*.color0:       #292b2e
+!*.color8:       rgba:2900/2b00/2e00/dede
+*.color8:       #292b2e
+
+! red
+*.color1:       #ee3333
+*.color9:       #ee3333
+
+! green
+*.color2:       #20ad80
+*.color10:      #20ad80
+
+! yellow
+*.color3:       #dd75dd
+*.color11:      #dd75dd
+
+! blue
+*.color4:       #875faf
+*.color12:      #875faf
+
+! magenta
+*.color5:       #d75f87
+*.color13:      #d75f87
+
+! cyan
+*.color6:       #4f97d7
+*.color14:      #4f97d7
+
+! white
+*.color7:       #ececec
+*.color15:      #ececec
+
+!URxvt.letterSpace: true
+!URxvt*boldMode: true
+!URxvt*font: xft:Inconsolata:size=10,xft:Inconsolata\ for\ Powerline:size=10
+!URxvt.font: xft:Monaco:size=10:antialias=true
+!URxvt.font: xft:xos4 terminus:size=10:antialias=false
+!URxvt*font: xft: Liberation Mono:pixelsize=14,xft: DejaVu Sans Mono,xft: Symbola:size=5
+
+URxvt.font: xft:DejaVu\ Sans\ Mono:normal:size=12
+URxvt*boldFont: xft:Dejavu\ Sans\ Mono:bold:size=12
+!URxvt.font: xft:DejaVu\ Sans\ Mono\ for\ Powerline:normal:size=12
+!URxvt*boldFont: xft:Dejavu\ Sans\ Mono\ For\ Powerline:bold:size=12
+!URxvt.font: xft:xos4 terminus:size=10:antialias=false
+!URxvt.font: xft:lucytewi:size=8
+!URxvt*boldFont: xft:lucytewi:size=8
+!URxvt.font: xft:Roboto\ Mono\ for\ Powerline:size=8
+!URxvt.font: xft:monaco:size=9
+
+!urxvt*font: -*-lemon-*-*-*-*-*-*-*-*-*-*-*-*
+!urxvt*boldFont: -*-lemon-*-*-*-*-*-*-*-*-*-*-*-*
+!urxvt*italicFont: -*-lemon-*-*-*-*-*-*-*-*-*-*-*-*
+!urxvt*bolditalicFont: -*-lemon-*-*-*-*-*-*-*-*-*-*-*-*
+
+!URxvt*font:               -*-gohufont-medium-*-*-*-14-*-*-*-*-*-*
+!URxvt*boldFont:           -*-gohufont-bold-*-*-*-14-*-*-*-*-*-*
+!URxvt*italicFont:         -*-gohufont-medium-*-*-*-14-*-*-*-*-*-*
+!URxvt*boldItalicFont: -*-gohufont-bold-*-*-*-14-*-*-*-*-*-*
+
+!urxvt*font: -*-tewi-medium-r-*-*-11-*-*-*-*-*-*-*
+!urxvt*font: -*-tewi-medium-r-*-*-*-*-*-*-*-*-*-*
+!urxvt*boldFont: -*-tewi-medium-r-*-*-*-*-*-*-*-*-*-*
+!urxvt*italicFont: -*-tewi-medium-r-*-*-*-*-*-*-*-*-*-*
+!urxvt*bolditalicFont: -*-tewi-medium-r-*-*-*-*-*-*-*-*-*-*
+
+!urxvt*font: xft:tamzen\ for\ powerline:size=10:antialias=false
+!urxvt*boldFont: xft:tamzen\ for\ powerline:size=10:antialias=false
+!urxvt*italicFont: xft:tamzen\ for\ powerline:size=10:antialias=false
+!urxvt*bolditalicFont: xft:tamzen\ for\ powerline:size=10:antialias=false
+
+!URxvt.font: xft:inconsolata-g:size=10
+!URxvt.font: xft:Roboto:size=10
+!URxvt.font: xft:Hack:size=12:antialias=true
+!URxvt.font: xft:Iosevka:size=12:antialias=true:hinting=true
+
+!URxvt*font: xft:Source\ Code\ Pro\ Medium:pixelsize=13:antialias=true:hinting=true,xft:Source\ Code\ Pro\ Medium:pixelsize=13:antialias=true:hinting=true
+
+!URxvt.font: xft:SourceCodePro:size=12
+!URxvt.font: xft:SauceCodePro\ Nerd\ Font:size=10,FontAwesome:size=8
+
+!URxvt.font: xft:RobotoMono\ Nerd\ Font:size=10,FontAwesome:size=10
+!URxvt.font: xft:SourceCodePro+Powerline+Awesome Regular:pixelsize=12
+
+!URxvt.colorIT:      #87af5f
+!URxvt.colorBD:      #d7d7d7
+!URxvt.colorUL:      #87afd7
+URxvt.depth: 32
+!URxvt*geometry: 96x30
+URxvt.colorUL: #875faf
+URxvt.scrollBar: false
+URxvt.saveLines: 4095
+URxvt.perl-ext-common: default,matcher,resize-font,selection-to-clipboard,url-select,keyboard-select
+URxvt.url-launcher: /usr/bin/abrowser
+URxvt.keysym.M-u: perl: url-select:select_next
+URxvt.url-select.underline: true
+URxvt.matcher.button: 1
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+!URxvt.keysym.F11: perl:fullscreen:switch
+
+URxvt*background: [85]#000000
+!URxvt*background: #202020
+!URxvt*foreground: #d0d0d0
+
+!URxvt.transparent:   true
+!URxvt.shading:       20
+
+URxvt.resize-font.smaller: C-S-Down
+URxvt.resize-font.bigger: C-S-Up
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+URxvt.mapAlert:	  true
+
+!URxvt.perl-ext-common:		osc-xterm-clipboard
+
+! ------------------------------------------------------------------------------
+! ROFI 
+! ------------------------------------------------------------------------------
+!rofi.color-enabled: true
+!rofi.color-window: #273238, #273238, #1e2529
+!rofi.color-normal: #273238, #c1c1c1, #273238, #394249, #ffffff
+!rofi.color-active: #273238, #80cbc4, #273238, #394249, #80cbc4
+!rofi.color-urgent: #273238, #ff1844, #273238, #394249, #ff1844
+
+!rofi.color-window: #141021, #c16772, #9568a1
+!rofi.color-normal: #141021, #ffeefc, #312842, #c16772, #ffeefc
+!rofi.color-active: #141021, #c05c47, #312842, #c05c47, #ffeefc
+!rofi.color-urgent: #141021, #e4b226, #312842, #e4b226, #ffeefc
+
+
+rofi.color-window: #141021, #141021, #9568a1
+rofi.color-normal: #141021, #ffeefc, #312842, #875faf, #ffeefc
+rofi.color-active: #141021, #ee3333, #312842, #dd75dd, #ffeefc
+rofi.color-urgent: #141021, #ee3333, #312842, #dd75dd, #ffeefc
+
+rofi.color-enabled: true
+rofi.width: 600
+rofi.padding: 20
+rofi.bw: 3
+rofi.separator-style: solid
+rofi.hide-scrollbar: true
+!rofi.font: lucytewi 8
+rofi.font: dejavu sans mono 12
